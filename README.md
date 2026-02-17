@@ -33,6 +33,17 @@ A property listing app built as a fullstack coding test. The backend is a REST A
 
 ---
 
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/taufiksoleh/fullstack-mini-program-dana.git
+cd fullstack-mini-program-dana
+```
+
+---
+
 ## Prerequisites
 
 Make sure you have these installed before starting:
