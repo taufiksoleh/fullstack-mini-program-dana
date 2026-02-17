@@ -11,6 +11,26 @@ A property listing app built as a fullstack coding test. The backend is a REST A
 
 ---
 
+## Demo
+
+**Video**
+
+<video src="demo/video/taufik_mini-program-dana-demo.mp4" controls width="100%"></video>
+
+**Screenshots**
+
+| Home | Property List | Search |
+|------|--------------|--------|
+| <img src="demo/image/home.png" width="100px" alt="Home"> | <img src="demo/image/property_list_1.png" width="100px" alt="Property List"> | <img src="demo/image/property_list_2.png" width="100px" alt="Search"> |
+
+| Filter Result | Load More | Property Detail |
+|--------------|-----------|-----------------|
+| <img src="demo/image/property_list_3.png" width="100px" alt="Filter Result"> | <img src="demo/image/refresh_property_list.gif" width="100px" alt="Load More"> | <img src="demo/image/property_detail_1.png" width="100px" alt="Property Detail 1"> |
+
+<img src="demo/image/property_detail_2.png" width="100px" alt="Property Detail 2">
+
+---
+
 ## Prerequisites
 
 Make sure you have these installed before starting:
