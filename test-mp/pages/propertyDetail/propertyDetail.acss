@@ -1,0 +1,96 @@
+.detail-page {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.banner {
+  width: 100%;
+  height: 780rpx;
+  display: block;
+}
+
+.detail-body {
+  padding-bottom: calc(180rpx + env(safe-area-inset-bottom));
+}
+
+.detail-title {
+  font-size: 42rpx;
+  font-weight: bold;
+  color: #222;
+  display: block;
+  margin: 32rpx 32rpx 16rpx 32rpx;
+}
+
+.detail-price {
+  font-size: 28rpx;
+  color: #646464;
+  font-weight: 600;
+  display: block;
+  margin: 16rpx 32rpx 16rpx 32rpx;
+}
+
+.section-label {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #444;
+  display: block;
+  margin: 32rpx 32rpx 16rpx 32rpx;
+}
+
+.section-text {
+  font-size: 24rpx;
+  color: #666;
+  line-height: 1.6;
+  display: block;
+  margin: 0rpx 32rpx 0rpx 32rpx;
+}
+
+.image-gallery {
+  width: 100%;
+  padding: 0rpx 32rpx 0rpx 32rpx;
+}
+
+.gallery-track {
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery-image {
+  width: 400rpx;
+  height: 400rpx;
+  flex-shrink: 0;
+}
+
+.facilities {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12rpx;
+  margin: 0rpx 32rpx 0rpx 32rpx;
+}
+
+.facility-tag {
+  font-size: 22rpx;
+  color: #ffffff;
+  background-color: var(--color-primary);
+  padding: 6rpx 18rpx;
+  border-radius: 6rpx;
+}
+
+.loading-indicator {
+  text-align: center;
+  padding: 48rpx;
+  color: #999999;
+  font-size: 28rpx;
+}
+
+.book-btn-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16rpx 24rpx;
+  padding-bottom: calc(16rpx + env(safe-area-inset-bottom));
+  background-color: #fff;
+  box-shadow: 0 -2rpx 12rpx rgba(0, 0, 0, 0.08);
+}

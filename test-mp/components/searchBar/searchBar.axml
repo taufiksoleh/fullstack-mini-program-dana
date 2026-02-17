@@ -1,0 +1,12 @@
+<view class="search-bar-wrap">
+  <view class="search-bar">
+    <input
+      class="search-input"
+      type="text"
+      placeholder="{{placeholder}}"
+      onInput="handleChange"
+      onConfirm="handleConfirm"
+      confirmType="search"
+    />
+  </view>
+</view>

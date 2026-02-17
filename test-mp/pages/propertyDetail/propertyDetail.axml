@@ -1,0 +1,46 @@
+<ant-page-container
+  safeArea="both"
+>
+  <scroll-view class="detail-page" scroll-y>
+    <view a:if="{{loading}}" class="loading-indicator">
+      <text>Loading...</text>
+    </view>
+    <block a:else>
+      <image class="banner" src="{{property.banner.url}}" mode="aspectFill" />
+
+      <view class="detail-body">
+        <text class="detail-title">{{property.title}}</text>
+        <text class="detail-price">Rp {{formattedPrice}}</text>
+
+        <text class="section-label">Description</text>
+        <text class="section-text">{{property.description}}</text>
+
+        <text class="section-label">Facilities</text>
+        <view class="facilities">
+          <text class="facility-tag" a:for="{{property.facilities}}" a:key="*this">{{item}}</text>
+        </view>
+
+        <text class="section-label">Gallery</text>
+        <scroll-view class="image-gallery" scroll-x>
+          <view class="gallery-track">
+            <image
+              a:for="{{property.images}}"
+              a:key="url"
+              class="gallery-image"
+              src="{{item.url}}"
+              mode="aspectFill"
+            />
+          </view>
+        </scroll-view>
+
+        <text class="section-label">Term and Conditions</text>
+        <text class="section-text">{{property.terms}}</text>
+        <text class="section-text">{{property.conditions}}</text>
+      </view>
+    </block>
+  </scroll-view>
+
+  <view class="book-btn-bar">
+    <app-button type="primary" onTap="handleBook">Book Now</app-button>
+  </view>
+</ant-page-container>

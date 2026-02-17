@@ -1,0 +1,7 @@
+<view class="property-card {{layout}}">
+  <image class="property-image" src="{{imageUrl}}" mode="aspectFill" />
+  <view class="property-info">
+    <text class="property-title">{{title}}</text>
+    <text class="property-price">Rp {{formattedPrice}}</text>
+  </view>
+</view>

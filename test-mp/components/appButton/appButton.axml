@@ -1,0 +1,8 @@
+<ant-button
+  type="{{type}}"
+  disabled="{{disabled}}"
+  loading="{{loading}}"
+  size="{{size}}"
+  onTap="handleTap"
+  className="app-button"
+><slot /></ant-button>

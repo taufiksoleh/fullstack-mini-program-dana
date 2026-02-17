@@ -1,0 +1,13 @@
+<view class="page">
+  <view class="content">
+    <home a:if="{{current === 0}}" />
+    <property-list a:if="{{current === 1}}" />
+  </view>
+  <view class="tab-bar-wrap">
+    <tab-bar
+      items="{{tabs}}"
+      current="{{current}}"
+      onChange="handleChange"
+    ></tab-bar>
+  </view>
+</view>

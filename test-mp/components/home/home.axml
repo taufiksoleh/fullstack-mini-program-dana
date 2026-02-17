@@ -1,0 +1,6 @@
+<view class="home-container">
+  <view class="logo-wrapper">
+    <image class="logo" src="/assets/images/property_finder_logo.png" mode="aspectFill" />
+  </view>
+  <text class="about-app">Property Finder is a simple app that allows you to search for properties in your area. It is build using Ant Design Mobile</text>
+</view>

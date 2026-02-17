@@ -1,0 +1,6 @@
+page {
+  background: #f7f7f7;
+  --color-primary: #338ee9;
+  --color-primary-light: #e8f3fc;
+  --button-primary-background-color: var(--color-primary);
+}

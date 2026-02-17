@@ -1,0 +1,41 @@
+<view>
+  <view class="toolbar {{toolbarHidden ? 'toolbar-hidden' : ''}}">
+    <search-bar onSearch="onSearchChange" placeholder="Search properties..." />
+    <view class="toggle-btn" onTap="toggleLayout">
+      <ant-icon type="{{layout === 'grid' ? 'UnorderedListOutline' : 'AppstoreOutline'}}" />
+    </view>
+  </view>
+  <scroll-view
+    scroll-y="{{true}}"
+    style="height: {{scrollHeight}}px"
+    onScrollToLower="onScrollToLower"
+    onScroll="onScroll"
+    onTouchStart="onTouchStart"
+    onTouchMove="onTouchMove"
+    onTouchEnd="onTouchEnd"
+  >
+    <view class="scroll-content">
+      <view class="ptr-indicator {{ptrVisible ? 'ptr-visible' : ''}}">
+        <text>{{ptrText}}</text>
+      </view>
+      <view class="listings {{layout}}">
+        <view class="card-wrap" a:for="{{listings}}" a:key="documentId"
+          onTap="handleCardTap" data-id="{{item.documentId}}">
+          <property-card
+            imageUrl="{{item.banner.url}}"
+            title="{{item.title}}"
+            price="{{item.price}}"
+            layout="{{layout}}"
+          />
+        </view>
+      </view>
+      <empty-state a:if="{{!loading && listings.length === 0}}" />
+      <view a:if="{{loading}}" class="loading-indicator">
+        <text>Loading...</text>
+      </view>
+      <view a:if="{{!hasMore && listings.length > 0}}" class="end-of-list">
+        <text>No more properties</text>
+      </view>
+    </view>
+  </scroll-view>
+</view>

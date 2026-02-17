@@ -1,0 +1,56 @@
+.property-card {
+  background: #ffffff;
+  border-radius: 16rpx;
+  overflow: hidden;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.08);
+  padding: 24rpx;
+}
+
+/* Grid layout - vertical card */
+.property-card.grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.property-card.grid .property-image {
+  width: 100%;
+  height: 260rpx;
+}
+
+.property-card.grid .property-info {
+  padding: 16rpx;
+}
+
+/* List layout - vertical card, full width */
+.property-card.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.property-card.list .property-image {
+  width: 100%;
+  height: 360rpx;
+}
+
+.property-card.list .property-info {
+  padding: 16rpx;
+}
+
+/* Common text styles */
+.property-title {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333333;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.property-price {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #646464;
+  margin-top: 8rpx;
+  display: block;
+}

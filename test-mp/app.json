@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/propertyDetail/propertyDetail"
+  ],
+  "window": {
+    "defaultTitle": "Property Finder - Taufik Soleh",
+    "titleBarColor": "#338ee9",
+    "titleColor": "#ffffff"
+  }
+}

@@ -1,0 +1,32 @@
+:host {
+  display: flex;
+  flex: 1;
+}
+
+.home-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-wrapper {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  border: 2rpx solid #c0c0c0;
+  overflow: hidden;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+.about-app {
+  margin: 42rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333333;
+}

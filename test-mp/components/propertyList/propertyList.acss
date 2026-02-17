@@ -1,0 +1,91 @@
+.scroll-content {
+  padding: 0 24rpx;
+  margin-bottom: 16rpx;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+  margin: 24rpx 24rpx 0;
+  padding: 16rpx;
+  background-color: #ffffff;
+  border-radius: 16rpx;
+  overflow: hidden;
+  max-height: 120rpx;
+  opacity: 1;
+  transition: max-height 0.25s ease, opacity 0.2s ease, margin 0.25s ease;
+}
+
+.toolbar-hidden {
+  max-height: 0;
+  opacity: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: none;
+}
+
+.toggle-btn {
+  padding: 16rpx 16rpx;
+  background: #ffffff;
+  border-radius: 8rpx;
+  border: 1rpx solid #dddddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Grid layout - 2 columns */
+.listings.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20rpx;
+  padding: 24rpx 0;
+}
+
+.listings.grid .card-wrap {
+  width: calc(50% - 10rpx);
+}
+
+/* List layout - 1 column */
+.listings.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+  padding: 24rpx 0;
+}
+
+.listings.list .card-wrap {
+  width: 100%;
+}
+
+.ptr-indicator {
+  text-align: center;
+  color: #338ee9;
+  font-size: 26rpx;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  padding: 0 24rpx;
+  transition: max-height 0.25s ease, opacity 0.2s ease, padding 0.25s ease;
+}
+
+.ptr-indicator.ptr-visible {
+  max-height: 80rpx;
+  opacity: 1;
+  padding: 20rpx 24rpx;
+}
+
+.loading-indicator {
+  text-align: center;
+  padding: 24rpx;
+  color: #999999;
+  font-size: 26rpx;
+}
+
+.end-of-list {
+  text-align: center;
+  padding: 24rpx;
+  color: #cccccc;
+  font-size: 24rpx;
+}

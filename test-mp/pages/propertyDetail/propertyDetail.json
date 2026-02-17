@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "Property Detail",
+  "allowsBounceVertical": "NO",
+  "usingComponents": {
+    "ant-page-container": "antd-mini/es/PageContainer/index",
+    "app-button": "/components/appButton/appButton"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "defaultTitle": "About Property Finder",
+  "allowsBounceVertical": "NO",
+  "usingComponents": {
+    "tab-bar": "antd-mini/es/TabBar/index",
+    "home": "/components/home/home",
+    "property-list": "/components/propertyList/propertyList"
+  }
+}

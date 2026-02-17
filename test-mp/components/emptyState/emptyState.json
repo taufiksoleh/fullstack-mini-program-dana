@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "ant-empty": "antd-mini/es/Empty/index"
+  }
+}
