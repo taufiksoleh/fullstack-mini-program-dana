@@ -21,11 +21,15 @@ A property listing app built as a fullstack coding test. The backend is a REST A
 
 | Home | Property List | Property Grid |
 |------|--------------|--------|
-| <img src="demo/image/home.png" width="200px" alt="Home"> | <img src="demo/image/property_list_1.png" width="200px" alt="Property List"> | <img src="demo/image/property_list_2.png" width="100px" alt="Property Grid"> |
+| <img src="demo/image/home.png" width="200px" alt="Home"> | <img src="demo/image/property_list_1.png" width="200px" alt="Property List"> | <img src="demo/image/property_list_2.png" width="200px" alt="Property Grid"> |
 
-| Search by property name | Pull to refresh | Property Detail |
-|--------------|-----------|-----------------|
-| <img src="demo/image/property_list_3.png" width="200px" alt="Search by property name"> | <img src="demo/image/refresh_property_list.gif" width="200px" alt="Pull to refresh"> | <img src="demo/image/property_detail_1.png" width="200px" alt="Property Detail 1"><img src="demo/image/property_detail_2.png" width="200px" alt="Property Detail 2"> |
+| Search by property name | Pull to refresh |
+|--------------|-----------|
+| <img src="demo/image/property_list_3.png" width="200px" alt="Search by property name"> | <img src="demo/image/refresh_property_list.gif" width="200px" alt="Pull to refresh"> |
+
+| Property Detail |
+|--------------|
+<img src="demo/image/property_detail_1.png" width="200px" alt="Property Detail 1"><img src="demo/image/property_detail_2.png" width="200px" alt="Property Detail 2"> |
 
 ---
 
