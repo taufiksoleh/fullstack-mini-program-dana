@@ -77,11 +77,11 @@ This spins up the app and a PostgreSQL 16 container together.
 Wait a few seconds for the database to be ready, then:
 
 ```bash
-make migrate
-make seed
+make docker-migrate
+make docker-seed
 ```
 
-`migrate` creates the database tables, and `seed` fills them with 100 sample property listings. The API will be available at `http://localhost:8080` — hit `GET /health` to confirm it's running.
+`docker-migrate` creates the database tables, and `docker-seed` fills them with 100 sample property listings. The API will be available at `http://localhost:8080` — hit `GET /health` to confirm it's running.
 
 **4. Useful commands**
 
@@ -115,9 +115,9 @@ export const API_BASE_URL = 'http://localhost:8080';
 
 If your backend is on a different port or host, update it here.
 
-**3. Open in Dana DevTools**
+**3. Open in Mini Program Studio**
 
-- Launch Dana DevTools
+- Launch Mini Program Studio
 - Click **Open Project** and select the `test-mp/` folder
 - The mini program should load with the property listing interface
 

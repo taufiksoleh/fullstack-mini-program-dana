@@ -10,6 +10,26 @@ services:
         condition: service_healthy
     restart: unless-stopped
 
+  migrate:
+    build: .
+    command: ["./migrate"]
+    env_file:
+      - .env
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: no
+
+  seed:
+    build: .
+    command: ["./seed"]
+    env_file:
+      - .env
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: no
+
   postgres:
     image: postgres:16-alpine
     environment:

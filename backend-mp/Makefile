@@ -51,6 +51,12 @@ docker-up:
 docker-down:
 	docker-compose down
 
+docker-migrate:
+	docker-compose run --rm migrate
+
+docker-seed:
+	docker-compose run --rm seed
+
 docker-logs:
 	docker-compose logs -f app
 
