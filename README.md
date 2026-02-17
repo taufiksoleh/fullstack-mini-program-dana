@@ -15,7 +15,7 @@ A property listing app built as a fullstack coding test. The backend is a REST A
 
 **Video**
 
-[![Demo Video](demo/video/taufik_mini-program-dana-demo.mp4)](demo/video/taufik_mini-program-dana-demo.mp4)
+[![Demo Video](demo/video/thumbail_video.png)](demo/video/taufik_mini-program-dana-demo.mp4)
 
 **Screenshots**
 
